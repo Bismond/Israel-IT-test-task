@@ -1,0 +1,7 @@
+{
+    "userdata": [
+      { "id": 1, "email": "dmytrohrynchuk@gmail.com", "password": "dmytro" },
+      { "id": 2, "email": "vasylpeleh@gmail.com", "password": "vasyl" },
+      { "id": 3, "email": "rostykmoroz@gmail.com", "password": "rostyk" }
+    ]
+}
