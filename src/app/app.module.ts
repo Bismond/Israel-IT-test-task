@@ -1,6 +1,7 @@
 import { HttpModule } from '@angular/http';
 import { AuthGuard } from './../services/authguard.service';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatButtonModule, MatInputModule } from '@angular/material';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
@@ -21,6 +22,8 @@ import { TodoListComponent } from './todo-list/todo-list.component';
     FormsModule,
     HttpClientModule,
     HttpModule,
+    MatButtonModule,
+    MatInputModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: AppComponent, canActivate: [AuthGuard] },
