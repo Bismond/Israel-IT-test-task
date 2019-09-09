@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { AuthService } from 'src/services/auth.service';
 import { HttpClientModule } from '@angular/common/http';
+import { TodoListComponent } from './todo-list/todo-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignInComponent
+    SignInComponent,
+    TodoListComponent
   ],
   imports: [
     BrowserModule,
