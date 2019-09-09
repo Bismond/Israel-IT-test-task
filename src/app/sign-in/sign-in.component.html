@@ -1,0 +1,13 @@
+<div class="login-wrapper">
+    <form class="login" [formGroup]="authorizationFrom">
+        <div class="login-group form-group">
+            <label for="userName" aria-haspopup="true" role="tooltip" class="tooltip tooltip-validation tooltip-sm">
+                <input class="form-control" type="text" formControlName="email" placeholder="Email">
+            </label>
+            <label for="password" aria-haspopup="true" role="tooltip" class="tooltip tooltip-validation tooltip-sm">
+                <input class="form-control" type="password" formControlName="password" placeholder="Password">
+            </label>
+            <button type="button" (click)="signIn($event)">Sign In</button>
+        </div>
+    </form>
+</div>
