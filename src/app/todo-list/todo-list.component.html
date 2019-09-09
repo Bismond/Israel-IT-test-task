@@ -3,7 +3,6 @@
         <input class="new-todo" placeholder="Що повинно бути виконано?" autofocus="" [(ngModel)]="newTodo.title"
             (keyup.enter)="addTodo()">
     </header>
-
     <section class="main" *ngIf="todos.length > 0">
         <ul class="todo-list">
             <li *ngFor="let todo of todos" [class.completed]="todo.complete">
@@ -16,7 +15,6 @@
             </li>
         </ul>
     </section>
-
     <footer class="footer" *ngIf="todos.length > 0">
         <span class="todo-count">Справ залишилось: <strong>{{todos.length}}</strong></span>
     </footer>

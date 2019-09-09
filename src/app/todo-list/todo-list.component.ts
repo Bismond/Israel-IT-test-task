@@ -3,7 +3,6 @@ import { Todo } from 'src/services/todo';
 import { TodoService } from 'src/services/todo.service';
 
 @Component({
-    moduleId: module.id,
     selector: 'app-todo-list',
     templateUrl: 'todo-list.component.html',
     styleUrls: ['todo-list.component.scss'],
