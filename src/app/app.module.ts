@@ -1,6 +1,7 @@
 import { HttpModule } from '@angular/http';
 import { AuthGuard } from './../services/authguard.service';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatInputModule } from '@angular/material';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -21,6 +22,7 @@ import { TodoListComponent } from './todo-list/todo-list.component';
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     HttpModule,
     MatButtonModule,
     MatInputModule,
